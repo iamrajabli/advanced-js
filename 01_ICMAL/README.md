@@ -21,6 +21,7 @@ Bir proyektdə müəyyən paradiqma istifadə olunur. Proqramlaşdırmada 3 mə�
 Əvvəlcə bilmək lazımdır ki, Javascript-də hərşey obyektdir (primitiv tiplər xaric). Məsələn istifadə etdiyimiz massivlər əslində bir obyektdir. Nümunədə göründüyü kimi (bax. index.js, 1. Nümunə), bir massiv yaradırıq və o massivə **push** metodu ilə bir rəqəm əlavə edirik daha sonra **filter** metodu ilə 2-dən böyük olanlardan yeni bir array yaradırıq. Sual yaranır - necə biz hər yaratdığımız massivdə eyni metodları istifadə edə bilirik? Bu **prototip əsaslı miras** nəticəsində meydana gəlir. Bu o deməkdir ki, Javascriptdə Array adında bir sinif (class) və bu sinifin özündə cəmlədiyi metodlar (forEach, map, includes, push, filter və s.) var. İkinci nümunədəki kodun konsola çıxardığı nəticə aşağıdadır. (bax. index.js, 2. Nümunə)
 
 ![prototype](https://i.ibb.co/GFJ94Z7/index.png)
+
 Bu şəkildən aydın olur ki,  yaratdığımız hər massiv bu metodları miras alır. Elə buna mirasalmaya görə də biz hər massivdə bu metodları istifadə edə bilirik.
 Bu mövzu olduqda böyük mövzudur. OOP bölməsində çox daha detallı bəhs edəcəyik.
 
