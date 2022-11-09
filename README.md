@@ -5,6 +5,9 @@ Salam! Mənim adım [Hikmətdir](https://www.linkedin.com/in/iamrajabli/). Bu re
 # Kimlər üçün uyğundur?
 Javascript-də heç olmasa müəyyən qədər təcrübəsi olanlar üçün əla qaynaqdır. Yəni 0-dan başlayan biri üçün məs. CALL STACK-da nə baş verdiyini oxumaq məncə sıxıcı olar. 
 
+## Yeni mövzular
+Hər gün ən az bir mövzu haqqında detallı yazıram. Mövzuların sırası əvvəlcədən var. Odur ki, reponu gündəlik kontrol edin.
+
 ## Daha yaxşı oxumaq üçün
 Hər bölmənin içində, özündə birləşdirdiyi bölmələr, onların da içində README.md faylları var. Bölməyə aid məlumatları həmin fayldan oxuyun. Tez-tez nümunələr ətrafında danışıldığı üçün həmin bölmədəki index.js faylını paraleldə açın. Həmin faylda nümunələri nömrələndirmişəm. 
 
