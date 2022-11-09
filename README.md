@@ -9,7 +9,7 @@ Javascript-də heç olmasa müəyyən qədər təcrübəsi olanlar üçün əla 
 Hər gün ən az bir mövzu haqqında detallı yazıram. Mövzuların sırası əvvəlcədən var. Odur ki, reponu gündəlik kontrol edin.
 
 ## Daha yaxşı oxumaq üçün
-Hər bölmənin içində, özündə birləşdirdiyi bölmələr, onların da içində README.md faylları var. Bölməyə aid məlumatları həmin fayldan oxuyun. Tez-tez nümunələr ətrafında danışıldığı üçün həmin bölmədəki index.js faylını paraleldə açın. Həmin faylda nümunələri nömrələndirmişəm. 
+Sözügedən mövzular olduqca qəlizdir. İlk oxumada aydın olmayan məqamlar çox ola bilər. Təkrar-təkrar oxumaqda fayda var. Adətən oxumaq üçün ən yaxşı vaxt səhər və günorta vaxtlarıdır. Gecə gözünüzdən yuxu töküldüyü zaman bu mövzuları oxumaq vaxt itkisi olacaq.
 
 ## Səhv tapdım
 

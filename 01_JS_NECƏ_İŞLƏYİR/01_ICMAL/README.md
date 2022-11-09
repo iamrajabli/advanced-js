@@ -18,7 +18,17 @@ Bir proyektdə müəyyən paradiqma istifadə olunur. Proqramlaşdırmada 3 mə�
 
 
 ### Prototip əsaslı obyekt-yönümlü (Prototype-based object-oriented)
-Əvvəlcə bilmək lazımdır ki, Javascript-də hərşey obyektdir (primitiv tiplər xaric). Məsələn istifadə etdiyimiz massivlər əslində bir obyektdir. Nümunədə göründüyü kimi (bax. index.js, 1. Nümunə), bir massiv yaradırıq və o massivə **push** metodu ilə bir rəqəm əlavə edirik daha sonra **filter** metodu ilə 2-dən böyük olanlardan yeni bir array yaradırıq. Sual yaranır - necə biz hər yaratdığımız massivdə eyni metodları istifadə edə bilirik? Bu **prototip əsaslı miras** nəticəsində meydana gəlir. Bu o deməkdir ki, Javascriptdə Array adında bir sinif (class) və bu sinifin özündə cəmlədiyi metodlar (forEach, map, includes, push, filter və s.) var. İkinci nümunədəki kodun konsola çıxardığı nəticə aşağıdadır. (bax. index.js, 2. Nümunə)
+Əvvəlcə bilmək lazımdır ki, Javascript-də hərşey obyektdir (primitiv tiplər xaric). Məsələn istifadə etdiyimiz massivlər əslində bir obyektdir. Aşağıdakı nümunədə göründüyü kimi:
+
+    const  someArr  = [1,  2,  3,  4];
+    someArr.push(5);
+    const  filteredArr  = someArr.filter(item  => item >  2);
+
+Bir massiv yaradırıq və o massivə **push** metodu ilə bir rəqəm əlavə edirik daha sonra **filter** metodu ilə 2-dən böyük olanlardan yeni bir array yaradırıq. Sual yaranır - necə biz hər yaratdığımız massivdə eyni metodları istifadə edə bilirik? Bu **prototip əsaslı miras** nəticəsində meydana gəlir. Bu o deməkdir ki, Javascriptdə Array adında bir sinif (class) və bu sinifin özündə cəmlədiyi metodlar (forEach, map, includes, push, filter və s.) var. Aşağıdakı nümunədəki kodun:
+
+    console.log(Array.prototype);
+
+Konsola çıxardığı nəticə aşağıdadır.
 
 ![prototype](https://i.ibb.co/GFJ94Z7/index.png)
 
@@ -26,7 +36,13 @@ Bu şəkildən aydın olur ki,  yaratdığımız hər massiv bu metodları miras
 Bu mövzu olduqca böyükdür. OOP bölməsində çox daha detallı bəhs edəcəyik.
 
 ### Birinci sinifdən funksiyalar (First-class function)
-Javascriptdə funksiyalar dəyişən (variable) kimi hesab olunur (expression və ya regular-dan fərqindən söhbət getmir). Elə bu səbəbdən də funksiyaları başqa funksiyalara parametr olaraq göndərə və hər hansı funksiyadan geriyə funksiya qaytara bilirik (bax. index.js, 3. Nümunə). Nümunədə bir funksiyanı başqa funksiyaya göndərmişik. 
+Javascriptdə funksiyalar dəyişən (variable) kimi hesab olunur (expression və ya regular-dan fərqindən söhbət getmir). Elə bu səbəbdən də funksiyaları başqa funksiyalara parametr olaraq göndərə və hər hansı funksiyadan geriyə funksiya qaytara bilirik. Aşağıdakı nümunədə bir funksiyanı başqa funksiyaya göndərmişik. 
+
+    function clickHandler(e) {
+        console.log(e.target, this);
+    }
+    
+    window.addEventListener('click', clickHandler);
 
 ### Dinamik 
 Javascript dinamik tipizasiyaya sahib dildir. Yəni dəyişən yaratdığımız zaman dəyişənin hansı tipdə olduğunu dilin özü təyin edir (Number, String, BigInt və s.). Bu xüsusiyyət bütün proqramlaşdırma dillərində yoxdur. Məsələn C++, Java, C# kimi dillərdə dəyişən yaradılan zaman tipi də təyin edilməlidir. Javascript kodları ilə statik tipizasiya üçün [Typescript](https://www.typescriptlang.org/) proqramlaşdırma dili istifadə olunur.
