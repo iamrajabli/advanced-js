@@ -13,7 +13,7 @@ Yuxarıda sözügedən Javascript xüsusiyyətlərindən biri də zibil toplama 
 Aydındır ki, kompüter yazdığımız kodları başa düşmür. Başa düşməsi üçün kodlarımızı 0 1 kimi tərcümə edən texnologiyaya ehtiyac duyuruq. Javascript-də yazdığımız kodları (sözləri) anlayışı olmayan birinə göstərsək də müəyyən bir anlayış sahibi ola bilər (for, if, function, return, getElementById və s.). Yazdığımız bu kodlar "0 1 üzərində abstraksiya" adlanır. Günün sonunda yazdığımız kodlar ya interpretasiya ya da kompilyasiya nəticəsində maşın koduna (0 1) çevriləcəkdir. Bəs Javascript kodlarımız hansı texnologiya sayəsində maşın koduna çevirilir?  - Brauzerlərdəki Javascript motorları sayəsində (V8, Carakan, SpiderMonkey və s.)
 
 ### Multiparadiqma
-Paradiqma - kodun yazılma üslubunu və texnikasını təyin edəcək kodu strukturlaşdırmaq üçün yanaşma və düşüncə tərzi.
+Paradiqma - kodun yazılma üslubunu və texnikasını təyin edəcək kodu strukturlaşdırmaq üçün yanaşma və düşüncə tərzidir.
 Bir proyektdə müəyyən paradiqma istifadə olunur. Proqramlaşdırmada 3 məşhur paradiqma var: Prosessual, funksiyonal, obyekt-yönümlü (OOP). Javascript bu paradiqmaların üçünü də istifadə edə bilir. 
 
 
