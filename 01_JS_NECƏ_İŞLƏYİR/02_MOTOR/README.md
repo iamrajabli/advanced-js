@@ -60,6 +60,8 @@ Parsindqən əvvəl:
     const info = "Məlumatlar yararlıdırsa, reponu itirməmək üçün ulduzlayın (star)."
 
 Parsindqən sonra:
+
+
 ![enter image description here](https://i.ibb.co/p25S5hs/Screenshot-2.png)
 
 Bu sintaksis **[AST](https://astexplorer.net/)** **(Abstract syntax trees)** adlanır. Bu mərhələdə həm də sintaktik xətalar yoxlanılır. Lütfən AST-ni DOM tree ilə qarışdırmayın. 
