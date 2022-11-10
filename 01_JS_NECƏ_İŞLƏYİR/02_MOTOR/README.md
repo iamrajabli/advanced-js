@@ -25,7 +25,7 @@ Kompüterlərin sadəcə 0 və 1-ləri (maşın kodu) başa düşdüyündən dan
 
  1. Mənbə kodu (yazdığımız normal kodlar)
  2. Kompilyasiya (bütün kodların maşın koduna çevrilməsi)
- 3. Maşın kodu ([protativ](https://www.azleks.az/az/online-dictionary/portativ) fayl)
+ 3. Maşın kodu ([portativ](https://www.azleks.az/az/online-dictionary/portativ) fayl)
  4. Yerinə yetirmə (istifadəçi tərəfindən)
  
 Yazılan addımlar sizi çaşdırmasın. Belə düşünün, kompüterinizdəki proqramlar artıq kompilyasiyası başa çatmış proqramlardır. Yəni 3 cü addımı bitiriblər. Siz klikləyib açanda 4 cü addımdan başlayırsınız. Yəni proqramı başladırsınız. Məncə bu səfər super-aydındır. 
