@@ -52,5 +52,5 @@ Axın ([thread](https://www.iitk.ac.in/esc101/05Aug/tutorial/essential/threads/d
 Javascript tək axınlı (single threaded) dildir. Bu o deməkdir ki, bir dəfəyə sadəcə bir tapşırığı həll edə bilir. 
 
 ### Paralellik modeli (Concurrency model) 
-Javascript motoru bir neçə tapşırığı eyni anda həll edə bilir. Bu nə üçün lazımdır? Javascript tək axınlı (single threaded) dildir. Bu o deməkdir ki, bir dəfəyə bir tapşırığı həll edə bilir. Elə bir iş ola bilər ki, həmin iş axını məşğul edə və özündən sonrakı işlərin gözləməyinə səbəb ola bilər. Buna görə də bizə, bir neçə iş olduğu zaman onları eyni zamanda həll edə biləcək texnologiya lazımdır. Javascript motoru bizə bu texnologiyanı - **Event Loop** təşkil edir.
-Event loop uzun çəkəcək tapşırıqları götürür və "fon rejimdə" həll edir. Həll etdikdən sonra isə əsas axına ötürür. Nəticə etibarilə paralel iş prinsipi yaranır. Bu mövzu olduqca genişdir və qeyd edilən addımlar çox sadə dildədir.
+Qeyd etdiyimiz kimi Javascript tək axınlı (single threaded) dildir. Bu o deməkdir ki, bir dəfəyə bir tapşırığı həll edə bilir. Elə bir iş ola bilər ki, həmin iş, axını məşğul edə və özündən sonrakı işlərin gözləməyinə səbəb ola bilər. Bizim bu hallarda köməyimizə  - **Event Loop** çatır.
+Event loop uzun çəkəcək tapşırıqları götürür və "fon rejimdə" həll edir. Həll etdikdən sonra isə əsas axına ötürür. Nəticə etibarilə paralel iş prinsipi yaranır.
