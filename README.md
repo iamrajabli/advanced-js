@@ -11,20 +11,18 @@ Hər gün ən az bir mövzu haqqında detallı yazıram. Mövzuların sırası �
 ## Daha yaxşı oxumaq üçün
 Sözügedən mövzular olduqca qəlizdir. İlk oxumada aydın olmayan məqamlar çox ola bilər. Təkrar-təkrar oxumaqda fayda var. Adətən oxumaq üçün ən yaxşı vaxt səhər və günorta vaxtlarıdır. Gecə gözünüzdən yuxu töküldüyü zaman bu mövzuları oxumaq vaxt itkisi olacaq.
 
-## Səhv tapdım
-
+## Unutmayın ki,
 Unutmayın ki, mən bu məlumatları dokumentasiyadan və bir sıra mənbələrdən tərcümə edib yazıram. Bu o deməkdir ki, tərcümə xətaları məntiq xətalarına gətirib çıxara bilər. Amma tərcüməni özüm etdiyim üçün bu risk minimum səviyyədədir. Əgər konkret olaraq hər hansı sətirin səhv olduğunu düşünürsünüzsə "**Issues**" bölməsində bunu bildirin.
 
-## Mövzu sırası
+Unutmayın ki, yazılan izahlar hər zaman 100% bütöv deyil. Yəni izahlar doğrudur, yazılanlar baş verir amma daha dərində hərşey çox daha mürəkkəb işləyir. İzahlar, iş prinsipini başa düşməyimiz üçündür. 
 
+## Mövzu sırası
 Mövzular sıralı deyil. Hansı bölmə lazımdırsa adına görə tapa bilərsiniz. Yəni 5-ci bölməni yazanda 1-ci bölmədən çalışdığım qədər misallar gətirmirəm.  Amma bunu bilirəm deyib digər bölmələrə keçməyin, böyük ehtimal ki, bilmədiyiniz şeylər çıxacaq. Mövzu haqqında əlavələrinizi yazmaq üçün ya **Fork** edə ya da **Issue** bölməsinə yaza bilərsiniz.
 
 ## Müəllif hüquqları
-
 Bu repo hərkəsə açıqdır. Hər hansı müəllif hüququ yoxdur. İstədiyiniz yerdə paylaşın. Əsasən müəllimlər üçün öz tələbələrinə azərbaycan dilində qaynaq kimi vermək əlverişlidir. 
 
-## Kurs, məsləhət, təklif, şikayət
-
+## Mentorluq, məsləhət, təklif, şikayət
  - [Github](https://github.com/iamrajabli)
  - [Linkedin](https://www.linkedin.com/in/iamrajabli/)
  - [Facebook](https://www.facebook.com/iamrajabli/)
