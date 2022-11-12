@@ -54,21 +54,26 @@ foo = <**function**>
 num = <**unknown**>
  
  **İcra konteksti - smth()**
- k = 3
- d = <**unknown**>
+ - k = 3  
+ - d = <**unknown**>
 
  **İcra konteksti - foo()**
- x = 5
- arguments = [4, 5]
+ - x = 5  
+ - arguments = [4, 5]
 
 Kontekstlər belədir. Qeyd edilən unknown-lar isə həmin funksiyanın işə düşmədiyi üçündür, işə düşdüktən sonra alınan nəticə ilə yerini dəyişəcəklər. 
 
 Yaxşı burda belə sual yaranır. Tutaq ki, kodumuzda yüzlərcə funksiya var. Bu o deməkdir ki, yüzlərcə də icra konteksti yaranır. Yaxşı bəs Javascript motoru bunu necə sıralayacaq və necə yerinə yetirəcək? 
 Burada isə **Call Stack** köməyimizə çatır. Bu da bir sonranın mövzusudur. 
 
+### Unutmayın ki, 
+Unutmayın ki, yazılan izahlar hər zaman 100% bütöv deyil. Yəni izahlar doğrudur, yazılanlar baş verir amma daha dərində hərşey çox daha mürəkkəb işləyir. İzahlar, iş prinsipini başa düşməyimiz üçündür.
 
 #### Mənbələr
-[Developer Mozilla](developer.mozilla.org)
-[JavaScript Execution Context](https://www.freecodecamp.org/news/execution-context-how-javascript-works-behind-the-scenes/)
-[Контекст выполнения и стек вызовов в JavaScript](https://habr.com/ru/company/ruvds/blog/422089/)
-[Современный JavaScript](https://www.udemy.com/course/javascript-zero-to-junior-developer/)
+
+ - [Developer Mozilla](developer.mozilla.org) 
+ - [JavaScript Execution Context](https://www.freecodecamp.org/news/execution-context-how-javascript-works-behind-the-scenes/)
+ - [Контекст выполнения и стек вызовов в JavaScript](https://habr.com/ru/company/ruvds/blog/422089/)
+ - [Современный JavaScript](https://www.udemy.com/course/javascript-zero-to-junior-developer/)
+  
+
