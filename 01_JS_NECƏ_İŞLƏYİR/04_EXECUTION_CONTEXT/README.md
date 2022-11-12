@@ -48,10 +48,10 @@ Yuxarıdakı şəkildəki kodlardan bir qlobal icra konteksti və iki icra konte
 
 
 **Global icra konteksti**
-greeting = **'Hello!'**
-smth = <**function**>
-foo = <**function**>
-num = <**unknown**>
+ - greeting = **'Hello!'**
+ - smth = <**function**>
+ - foo = <**function**>
+ - num = <**unknown**>
  
  **İcra konteksti - smth()**
  - k = 3  
