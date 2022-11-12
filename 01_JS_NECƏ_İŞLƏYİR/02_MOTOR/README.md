@@ -73,3 +73,17 @@ Müasir Javascript motorları ağıllı optimallaşdırma sisteminə sahibdirlə
 P.S - Yuxarıdakı mərhələlərə müdaxilə edə bilmirik. Çünki bu mərhələlər əsas axında (main thread) deyil, ayrı axında baş verir. Əsas axın **CALL STACK**-da işə düşür.
 
 İndi könül rahatlığı ilə Javascript interpretasiya olunan dil deyil deyə bilərsiniz!
+
+
+### Unutmayın ki,
+
+Unutmayın ki, yazılan izahlar hər zaman 100% bütöv deyil. Yəni izahlar doğrudur, yazılanlar baş verir amma daha dərində hərşey çox daha mürəkkəb işləyir. İzahlar, iş prinsipini başa düşməyimiz üçündür.
+
+#### Mənbələr
+
+ - [Developer Mozilla](developer.mozilla.org) 
+ - [JIT-компиляция](https://ru.wikipedia.org/wiki/JIT-%D0%BA%D0%BE%D0%BC%D0%BF%D0%B8%D0%BB%D1%8F%D1%86%D0%B8%D1%8F)
+ - [Abstract syntax trees (AST) ](https://www.dc.fi.udc.es/staff/freire/coqdoc/pauillac.inria.fr/coq/doc/n102.htm)
+ - [What is V8?](https://v8.dev/)
+ - [Современный JavaScript](https://www.udemy.com/course/javascript-zero-to-junior-developer/)
+  

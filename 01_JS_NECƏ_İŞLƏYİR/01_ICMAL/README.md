@@ -54,3 +54,16 @@ Javascript tək axınlı (single threaded) dildir. Bu o deməkdir ki, bir dəfə
 ### Paralellik modeli (Concurrency model) 
 Qeyd etdiyimiz kimi Javascript tək axınlı (single threaded) dildir. Bu o deməkdir ki, bir dəfəyə bir tapşırığı həll edə bilir. Elə bir iş ola bilər ki, həmin iş, axını məşğul edə və özündən sonrakı işlərin gözləməyinə səbəb ola bilər. Bizim bu hallarda köməyimizə  - **Event Loop** çatır.
 Event loop uzun çəkəcək tapşırıqları götürür və "fon rejimdə" həll edir. Həll etdikdən sonra isə əsas axına ötürür. Nəticə etibarilə paralel iş prinsipi yaranır.
+
+### Unutmayın ki,
+
+Unutmayın ki, yazılan izahlar hər zaman 100% bütöv deyil. Yəni izahlar doğrudur, yazılanlar baş verir amma daha dərində hərşey çox daha mürəkkəb işləyir. İzahlar, iş prinsipini başa düşməyimiz üçündür.
+
+#### Mənbələr
+
+ - [Developer Mozilla](developer.mozilla.org) 
+ - [High-Level Language (HLL)](https://www.techopedia.com/definition/3925/high-level-language-hll)
+ - [Memory management](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management)
+ - [Thread](https://en.wikipedia.org/wiki/Thread_(computing))
+ - [Современный JavaScript](https://www.udemy.com/course/javascript-zero-to-junior-developer/)
+  

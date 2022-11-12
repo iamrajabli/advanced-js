@@ -25,3 +25,16 @@ Event loop uzun çəkəcək tapşırıqları götürür və "fon rejimdə" həll
 ### Bonus məlumat
 Web API sadəcə brauzer daxilində əlçatandır. Amma bilirik ki, Javascript brauzer xaricində də [Node.js](https://nodejs.org/en/) sayəsində işləyə bilir. Bu təqdirdə Web API-in yerini "[C++ Bindings & Thread Pool](https://nodejs.org/en/docs/guides/dont-block-the-event-loop/)" alır. 
 
+
+### Unutmayın ki,
+
+Unutmayın ki, yazılan izahlar hər zaman 100% bütöv deyil. Yəni izahlar doğrudur, yazılanlar baş verir amma daha dərində hərşey çox daha mürəkkəb işləyir. İzahlar, iş prinsipini başa düşməyimiz üçündür.
+
+#### Mənbələr
+
+ - [Developer Mozilla](developer.mozilla.org) 
+ - [The event loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)
+ - [Understanding Event Loop, Call Stack, Event & Job Queue in Javascript](https://medium.com/@Rahulx1/understanding-event-loop-call-stack-event-job-queue-in-javascript-63dcd2c71ecd)
+ - [Web APIs](https://developer.mozilla.org/en-US/docs/Web/API)
+ - [Современный JavaScript](https://www.udemy.com/course/javascript-zero-to-junior-developer/)
+  
