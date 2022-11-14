@@ -6,7 +6,7 @@ Salam! Mənim adım [Hikmətdir](https://www.linkedin.com/in/iamrajabli/). Bu re
 Javascript-də heç olmasa müəyyən qədər təcrübəsi olanlar üçün əla qaynaqdır. Yəni 0-dan başlayan biri üçün məs. CALL STACK-da nə baş verdiyini oxumaq məncə sıxıcı olar. 
 
 ## Yeni mövzular
-Hər gün ən az bir mövzu haqqında detallı yazıram. Mövzuların sırası əvvəlcədən var. Odur ki, reponu gündəlik kontrol edin.
+Hər həftə ən az bir mövzu haqqında detallı yazıram. Mövzuların sırası əvvəlcədən var. Odur ki, reponu gündəlik kontrol edin.
 
 ## Daha yaxşı oxumaq üçün
 Sözügedən mövzular olduqca qəlizdir. İlk oxumada aydın olmayan məqamlar çox ola bilər. Təkrar-təkrar oxumaqda fayda var. Adətən oxumaq üçün ən yaxşı vaxt səhər və günorta vaxtlarıdır. Gecə gözünüzdən yuxu töküldüyü zaman bu mövzuları oxumaq vaxt itkisi olacaq.
@@ -16,11 +16,9 @@ Unutmayın ki, mən bu məlumatları dokumentasiyadan və bir sıra mənbələrd
 
 Unutmayın ki, yazılan izahlar hər zaman 100% bütöv deyil. Yəni izahlar doğrudur, yazılanlar baş verir amma daha dərində hərşey çox daha mürəkkəb işləyir. İzahlar, iş prinsipini başa düşməyimiz üçündür. 
 
-## Mövzu sırası
-Mövzular sıralı deyil. Hansı bölmə lazımdırsa adına görə tapa bilərsiniz. Yəni 5-ci bölməni yazanda 1-ci bölmədən çalışdığım qədər misallar gətirmirəm.  Amma bunu bilirəm deyib digər bölmələrə keçməyin, böyük ehtimal ki, bilmədiyiniz şeylər çıxacaq. Mövzu haqqında əlavələrinizi yazmaq üçün ya **Fork** edə ya da **Issue** bölməsinə yaza bilərsiniz.
 
 ## Müəllif hüquqları
-Bu repo hərkəsə açıqdır. Hər hansı müəllif hüququ yoxdur. İstədiyiniz yerdə paylaşın. Əsasən müəllimlər üçün öz tələbələrinə azərbaycan dilində qaynaq kimi vermək əlverişlidir. 
+Bu repo hərkəsə açıqdır. Hər hansı müəllif hüququ yoxdur. İstədiyiniz yerdə paylaşın, **amma öz adınızdan paylaşmamaq və mənbə olaraq bu reponu qeyd etmək şərtilə**. Əsasən müəllimlər üçün öz tələbələrinə azərbaycan dilində qaynaq kimi vermək, tələbələr üçün də boş vaxtlarında oxumaq üçün əlverişlidir.
 
 ## Mentorluq, məsləhət, təklif, şikayət
  - [Github](https://github.com/iamrajabli)
