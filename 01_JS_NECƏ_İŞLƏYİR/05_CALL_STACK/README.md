@@ -96,14 +96,14 @@ Diqqət - İcra konteksti, istifadəçi tərəfindən həyata keçirilən müxt�
 **Siz** proqramçılıqdan bezib Bolt-da taksi fəaliyyətinə başlamısınız. **Müştəri** N. Nərimanov metrosuna taksi **sifariş verib**. Siz də hər zaman sifariş üçün Nizami metrosunda gözləyirsiniz amma sifariş nöqtəsinə necə gedəcəyiniz barəsində bir fikriniz yoxdur. Amma şanslısınız, çünki **Google map** var. Google map sayəsində N. Nərimanov metrosuna yola düşürsünüz, sifarişi tamamlayırsınız və Nizami metrosuna geri qayıdırsınız.
 
 **Rollarda:**
-Siz: **Javascript motoru**
-Müştəri: **Proqramçı**
-Sifariş: **İcra kontekstləri** ([Tom Hardy Legend](https://www.imdb.com/title/tt3569230/))
-Google map: **Call Stack**
+- Siz: **Javascript motoru**
+- Müştəri: **Proqramçı**
+- Sifariş: **İcra kontekstləri** ([Tom Hardy Legend](https://www.imdb.com/title/tt3569230/))
+- Google map: **Call Stack**
 
 ### Unutmayın ki, 
 Unutmayın ki, yazılan izahlar hər zaman 100% bütöv deyil. Yəni izahlar doğrudur, yazılanlar baş verir amma daha dərində hərşey çox daha mürəkkəb işləyir. İzahlar, iş prinsipini başa düşməyimiz üçündür.
 
 #### Mənbələr
 -   [Developer Mozilla](https://developer.mozilla.org)
--   [Call stack]https://developer.mozilla.org/en-US/docs/Glossary/Call_stack)
+-   [Call stack](https://developer.mozilla.org/en-US/docs/Glossary/Call_stack)
