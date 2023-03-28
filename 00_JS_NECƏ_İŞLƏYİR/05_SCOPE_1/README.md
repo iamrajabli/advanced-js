@@ -33,7 +33,7 @@ Bu arada maraqlı birşey - funksiyalar da öz içlərində `block scope` - a sa
 
 ### Global scope
 
-Dediyimiz kimi qlobal scope - də yaradılan dəyişənə hər yerdən müraciət edə bilirik:
+Dediyimiz kimi `global scope` - də yaradılan dəyişənə hər yerdən müraciət edə bilirik:
 
 ![enter image description here](https://i.ibb.co/WtfXcr9/image.png)
 
@@ -53,7 +53,7 @@ Niyə belə birşey edəsən amma bunu hoisting ilə həll etmək olar:
 
 Sizə `var` ilə əlaqəli maraqlı birşey deyim. Adətən bu məlumat çox yerdə verilmir. Sadəcə deyilir ki, "Modern javascriptdə var yerinə `let` və ya `const` istifadə edin."  Yaxşı bəs niyə? Qardaş mənim ürəyim `var` istifadə etmək istəyir. Elə bir səbəb de ki istifadə etməyim yoxsa hər şey modern olsun deyə dəyişməzki. 
 
-#### Demək: Javaccript'də  `var` ilə yaradılan dəyişənlər  `window` obyektinə (özünüz birin yaradıb yoxlayın) düşür. Elə buna görə də aşağıdakı performans məsələləri yaranır:
+#### Demək: Javascript'də  `var` ilə yaradılan dəyişənlər  `window` obyektinə (özünüz birin yaradıb yoxlayın) düşür. Elə buna görə də aşağıdakı performans məsələləri yaranır:
 
 1.  Lazımsız yaddaş istifadəsi: `var` ilə yaradılan dəyişənlər `window` obyektində saxlanıldığı üçün, lazımsız yaddaş istifadəsinə səbəb ola bilər. Xüsusilə böyük tətbiqlər və çox sayda dəyişənin tanımlandığı halda önəmli bir performans itkisi baş verə bilər
     
@@ -61,7 +61,7 @@ Sizə `var` ilə əlaqəli maraqlı birşey deyim. Adətən bu məlumat çox yer
     
 3.  Təhlükəsizlik açıqları: `var` ilə yaradılan dəyişənlər,  `window` obyektinə düşür və bu səbəbdən digər kodlar (bizim və ya qeyri-bizim tərəfdən yazılan) tərəfindən dəyişdirilə bilər. Bu, potensial təhlükəsizlik açıqlarına səbəb ola bilər və kodun işlənməsini mənfi təsir edər.
     
-Məncə yetərincə aydın oldu artıq niyə `const` və `let` istifadə etmək lazımdır. Təbii ki, `const` və `const`-də bu hadisə baş vermir.
+Məncə yetərincə aydın oldu artıq niyə `const` və `let` istifadə etmək lazımdır. Təbii ki, `const` və `let`-də bu hadisə baş vermir.
 
 ### Block scope
 
@@ -80,7 +80,7 @@ Sözü gedən məsələyə yuxarıdakı şəkildə toxundum. Göründüyü kimi 
 
 ### Function scope
 
-Block scope nümunəsində local scope haqqında danışdıq. İndi gəlin `lexical scope` nədir buna da baxaq. Maraqlı söhbədir hətta local scope ilə qarışdırılır tez-tez. Təkrarlayaq - local scope deyəndə bunu yada salmaq lazımdır - bir dəyişkən yaradıldığı blok daxilində əlçatandır. Yəni o blokun içində bir blok da yaratsan yaradılan blok dəyişənin yaradıldığı blokda olduğu üçün həmin dəyişən onda da əlçatandır. Lakin bir funksiyanın içində digər bir funksiya yarandığı zaman `child function` - un, `parent function`-un parametrlərinə və daxilində yaranan dəyişənlərə çata bilməsi `lexical scope` adlanır. 
+Block scope nümunəsində local scope haqqında danışdıq. İndi gəlin `lexical scope` nədir buna da baxaq. Maraqlı söhbətdir hətta local scope ilə qarışdırılır tez-tez. Təkrarlayaq - local scope deyəndə bunu yada salmaq lazımdır - bir dəyişkən yaradıldığı blok daxilində əlçatandır. Yəni o blokun içində bir blok da yaratsan yaradılan blok dəyişənin yaradıldığı blokda olduğu üçün həmin dəyişən onda da əlçatandır. Lakin bir funksiyanın içində digər bir funksiya yarandığı zaman `child function` - un, `parent function`-un parametrlərinə və daxilində yaranan dəyişənlərə çata bilməsi `lexical scope` adlanır. 
 
 ![enter image description here](https://i.ibb.co/k8ssPd4/image.png)
 
